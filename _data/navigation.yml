@@ -1,0 +1,82 @@
+# main links
+main:
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
+  - title: "Home"
+    url: /
+  - title: "Calls"
+    url: /calls/
+  - title: "Organizers"
+    url: /organizers/
+  # - title: "Competitions"
+  #   url: /competitions/
+  - title: "Dates"
+    url: /dates/
+  # - title: "Proceedings"
+  #   url: /proceedings/
+  # - title: "Program"
+  #   url: /program/
+  # - title: "Workshops"
+    # url: /workshops/
+
+# CFP links
+calls:
+  - title: Call for Papers
+    url: /calls/#call-for-papers
+    children:
+      # - title: Scope
+        # url: /calls/#scope
+      - title: Out of Scope
+        url: /calls/#out-of-scope
+      - title: Style & Paper Categories
+        url: /calls/#style--paper-categories
+      - title: New Reviewing
+        url: /calls/#new-reviewing
+      - title: Submissions
+        url: /calls/#submissions
+      - title: Deadlines
+        url: /calls/#deadlines
+      # - title: Proceedings
+        # url: /calls/#proceedings
+      - title: Best Paper Awards
+        url: /calls/#best-paper-awards
+  - title: Call for Workshops
+    # url: /calls/#call-for-workshops
+    children:
+      - title: Submission of Workshop Proposals
+        # url: /calls/#submission-of-workshop-proposals
+      - title: Important Dates
+        # url: /calls/#important-dates
+      - title: Contact Information
+        # url: /calls/#contact-information
+
+dates:
+  - title: Dates
+    url: /dates/#dates
+    children:
+      - title: Important Dates
+        url: /dates/#important-dates
+      # - title: Important Workshop Dates
+      #   url: /dates/#important-workshop-dates
+
+organizers:
+  - title: Organizers
+    url: /organizers/#organizing-committee
+    children: 
+      - title: Program Chairs
+        url: /organizers/#program-chairs
+      - title: Workshop Chair
+        url: /organizers/#workshop-chair
+      - title: Webmaster
+        url: /organizers/#webmaster
+
+# workshops:
+#   - title: Workshops
