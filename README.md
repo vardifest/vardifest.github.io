@@ -1,5 +1,7 @@
 # Website for vardifest Workshop
 
+URL: https://meelgroup.github.io/vardifest/
+
 ## Configuration
 
 The website is built on jekyll. 
