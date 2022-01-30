@@ -1,8 +1,6 @@
-# Website for SAT 2022
+# Website for vardifest Workshop
 
-Webmaster: Jiong Yang
-
-# Configuration
+## Configuration
 
 The website is built on jekyll. 
 
@@ -14,4 +12,4 @@ The website is built on jekyll.
         
 3. Open a browser and preview the website locally at the following address.
 
-        http://127.0.0.1:4000/SAT22/
+        http://127.0.0.1:4000/vardifest/
