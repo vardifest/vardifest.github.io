@@ -1,6 +1,6 @@
 # Website for vardifest Workshop
 
-URL: https://meelgroup.github.io/vardifest/
+URL: https://vardifest.github.io
 
 ## Configuration
 
@@ -14,4 +14,4 @@ The website is built on jekyll.
         
 3. Open a browser and preview the website locally at the following address.
 
-        http://127.0.0.1:4000/vardifest/
+        http://127.0.0.1:4000/
