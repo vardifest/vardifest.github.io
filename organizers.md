@@ -4,9 +4,7 @@ sidebar:
   nav: organizers
 ---
 
-# Organizers
 
-## Program Chairs
 
 - [Giuseppe De Giacomo](https://www.diag.uniroma1.it/degiacom/) (Sapienza Univ. Rome,Italy)
 - [Kuldeep S. Meel](https://www.comp.nus.edu.sg/~meel/) (National University of Singapore)
