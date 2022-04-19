@@ -11,3 +11,7 @@ layout: single
 - [Phokion Kolaitis](https://users.soe.ucsc.edu/~kolaitis/) 
 - [Orna Kupferman](https://www.cs.huji.ac.il/~ornak/)
 - [Pierre Wolper](https://people.montefiore.uliege.be/pw/)  
+
+
+## Call for Presenters
+Please see the detailed call at [https://easychair.org/cfp/vardifest22](https://easychair.org/cfp/vardifest22)
