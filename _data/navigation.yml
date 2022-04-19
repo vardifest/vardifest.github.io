@@ -14,7 +14,8 @@ main:
     url: /
   - title: "Organizers"
     url: /organizers/
-
+  - title: "Program"
+    url: /program
 organizers:
   - title: Organizers
     url: /organizers/#organizing-committee
