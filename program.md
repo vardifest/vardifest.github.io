@@ -1,9 +1,9 @@
 ---
-layout: default
+layout: single
 ---
 
 
-# Invited Speakers
+## Invited Speakers
 
 - [Rajeev Alur](https://www.cis.upenn.edu/~alur/)
 - [Ronald Fagin](https://researcher.watson.ibm.com/researcher/view.php?person=us-fagin) 
