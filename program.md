@@ -3,7 +3,7 @@ layout: default
 ---
 
 
-#Invited Speakers
+# Invited Speakers
 
 - [Rajeev Alur](https://www.cis.upenn.edu/~alur/)
 - Ronald Fagin 
