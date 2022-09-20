@@ -1,0 +1,547 @@
+/* EasyChair smart program style sheets
+ * (c) 2013-2015 Cool Press Ltd
+ */
+
+/* main top-level menu, contains the most general items (program, site map etc.) */
+
+body, html  {
+  margin:0pt 0pt 0pt 0pt;
+  padding:0px;
+  min-width:800px;
+}
+
+.page_table {
+  height:100%;
+  width:100%;
+  border:0px;
+}
+.left_td_column {
+  width:1%;
+  vertical-align: top;
+  text-align: center;
+  padding:20pt 20px 20pt 20px;
+}
+.central_td_column {
+  width:99%;
+  vertical-align: top;
+  padding-top:3pt;
+  background:#fff;
+}
+.right_td_column {
+  width:1%;
+  vertical-align: top;
+  text-align: center;
+  padding:10pt 15px 20pt 15px;
+}
+
+.left_spacer{
+  width: 150px;
+}
+.right_spacer{
+  width: 150px;
+}
+
+.divsearch {
+  float:right;
+  width: 140px;
+  height:14px;
+  background-color:#fff;
+  margin-top:10px;
+  margin-left:20pt;
+  margin-right:20pt;
+  font-size:12pt;
+  line-height: 14px;
+}
+
+.conf_search {
+  width: 140px;
+  height:14px;
+  color:#666;
+  background-color:#fff;
+  font-size:11pt;
+  font-family:verdana, sans-serif;
+  padding:2px 3pt 4px 3pt;
+  border:solid 1px #aaa;
+  line-height: 14px;
+}
+
+#pagetitle {
+  color:#555;
+  font-size:13pt;
+  font-family:verdana, sans-serif;
+  font-weight : normal;
+  padding:10pt 0pt 6pt 0pt;
+  border-bottom:solid 1px #999;
+} 
+
+#main_menu {
+}
+#main_menu a:visited {
+  color:#f6f6f6;
+}
+#main_menu a:hover {
+  background-color:#222222;
+}
+#main_menu a {
+  color:#f6f6f6;
+  text-decoration:none;
+  background-color:#aaa;
+  font-size:11pt;
+  margin-right:2px;
+  font-family:verdana, sans-serif;
+  padding:3pt 5pt 3pt 5pt;
+  cursor: pointer;
+  line-height:1.75;
+}
+
+/* selected main top-level menu, contains the most general items (program, site map etc.) */
+#main_menu a.selected {
+  color:#fff;
+  text-decoration:none;
+  background-color:#dd0000;
+  font-size:11pt;
+  margin-right:2px;
+  font-family:verdana, sans-serif;
+  padding:3pt 5pt 3pt 5pt;
+  cursor: pointer;
+  line-height:1.75;
+}
+#main_menu a.selected:visited { color:#fff; }
+#main_menu a.selected:link:hover { background-color:#222; }
+#main_menu a.selected:visited:hover { background-color:#222; }
+
+/* second-level menu, for multi-conference programs contains conference aliases */
+#menu2 {
+  margin-top:7pt;
+  margin-left:0pt;
+  margin-right:0pt;
+  border-top: solid 1px #999;
+  padding: 4pt 0pt 4pt 0pt; 
+}
+#menu2 a:visited {
+  color:#888888;
+}
+#menu2 a:hover {
+  background-color:#222222;
+  color: #f6f6f6
+}
+#menu2 a {
+  color:#888888;
+  text-decoration:none;
+  font-size:11pt;
+  white-space:nowrap;
+  margin-right:2pt;
+  font-family:verdana, sans-serif;
+  padding:1pt 2pt 1pt 2pt;
+  cursor: pointer;
+}
+#menu2 .separator {
+  padding: 0pt 4pt 0pt 4pt;
+}
+
+/* selected main 2-level menu */
+#menu2 a.selected {
+  color:#fff;
+  text-decoration:none;
+  font-size:11pt;
+  white-space:nowrap;
+  margin-right:0pt;
+  font-family:verdana, sans-serif;
+  padding:0pt 4pt 1pt 4pt;
+  cursor: pointer;
+  background-color:#dd0000;
+}
+#menu2 a.selected:visited { color:#fff; }
+#menu2 a.selected:link:hover { background-color:#222; }
+#menu2 a.selected:visited:hover { background-color:#222; }
+
+/* third-level menu, appears on some pages */
+#menu3 {
+  margin-top:0pt;
+  margin-left:0pt;
+  margin-right:0pt;
+  border-top:solid 1px #999;
+  padding-top:7pt;
+}
+#menu3 a:visited {
+  color:#888888;
+}
+#menu3 a:hover {
+  background-color:#222222;
+  color: #f6f6f6
+}
+#menu3 a {
+  color:#888888;
+  text-decoration:none;
+  font-size:11pt;
+  white-space:nowrap;
+  margin-right:2pt;
+  font-family:verdana, sans-serif;
+  padding:1pt 0pt 2pt 0pt;
+  cursor: pointer;
+}
+#menu3 .separator {
+  padding: 0pt 4pt 0pt 4pt;
+}
+
+/* selected main 3-level menu */
+#menu3 a.selected {
+  color:#fff;
+  text-decoration:none;
+  font-size:11pt;
+  white-space:nowrap;
+  margin-right:0pt;
+  font-family:verdana, sans-serif;
+  padding:2pt 4pt 2pt 4pt;
+  cursor: pointer;
+  background-color:#dd0000;
+}
+#menu3 a.selected:visited { color:#fff; }
+#menu3 a.selected:link:hover { background-color:#222; }
+#menu3 a.selected:visited:hover { background-color:#222; }
+
+/* the class of the " | " string used in menus */
+.separator {}
+
+#disclaimer {
+  color: #043f76;
+  font-size:10pt;
+  font-family:verdana, sans-serif;
+  padding:12pt 12pt 12pt 12pt;
+  margin: 16pt 0pt 0pt 0pt;
+  border-top:1px #999 solid;
+  background-color:#efefef;
+  text-align:left;
+  white-space:nowrap;
+}
+
+#disclaimer a:link {
+  color: #006bb6;
+}
+
+#disclaimer a:hover  {
+  color: #ff0000;
+}
+
+#disclaimer .advt {
+  float: right;
+  color:#003580;
+}
+
+#disclaimer .advt a:link {
+  color: #003580;
+}
+
+#disclaimer .advt a:hover  {
+  color: #ffba01;
+}
+
+/* The page title, displayed on the very top of the page. E.g. LPAR 2013: 20th
+ * International Conference ... */
+#title {
+  color:#666;
+  font-size:16pt;
+  font-family:verdana, sans-serif;
+  padding:7pt 0pt 11pt 0pt;
+}
+
+
+.conf1 {
+  color: #000000;
+  background-color: #d6e0d6;
+}
+
+.conf10 {
+  color: #000000;
+  background-color: #a9a9a9;
+}
+
+.conf5 {
+  color: #000000;
+  background-color: #00ced1;
+}
+
+.conf46 {
+  color: #000000;
+  background-color: #dda0dd;
+}
+
+.conf54 {
+  color: #000000;
+  background-color: #d8bfd8;
+}
+
+.conf7 {
+  color: #000000;
+  background-color: #ff7f50;
+}
+
+.conf57 {
+  color: #000000;
+  background-color: #ffff7c;
+}
+
+.conf43 {
+  color: #000000;
+  background-color: #afeeee;
+}
+
+.conf24 {
+  color: #000000;
+  background-color: #ffa07a;
+}
+
+.conf22 {
+  color: #000000;
+  background-color: #90ee90;
+}
+
+.conf33 {
+  color: #000000;
+  background-color: #b0c4de;
+}
+
+.conf32 {
+  color: #000000;
+  background-color: #afb9c4;
+}
+
+.conf2 {
+  color: #000000;
+  background-color: #7cfc00;
+}
+
+.conf29 {
+  color: #000000;
+  background-color: #ffbea4;
+}
+
+.conf8 {
+  color: #000000;
+  background-color: #6495ed;
+}
+
+.conf6 {
+  color: #000000;
+  background-color: #deb887;
+}
+
+.conf31 {
+  color: #000000;
+  background-color: #87cefa;
+}
+
+.conf14 {
+  color: #000000;
+  background-color: #00bfff;
+}
+
+.conf4 {
+  color: #000000;
+  background-color: #add8e6;
+}
+
+.conf25 {
+  color: #000000;
+  background-color: #ffe4e1;
+}
+
+.conf38 {
+  color: #000000;
+  background-color: #ad93e4;
+}
+
+.conf47 {
+  color: #000000;
+  background-color: #eee8aa;
+}
+
+.conf19 {
+  color: #000000;
+  background-color: #daa520;
+}
+
+.conf49 {
+  color: #000000;
+  background-color: #bdede6;
+}
+
+.conf52 {
+  color: #000000;
+  background-color: #87ceeb;
+}
+
+.conf13 {
+  color: #000000;
+  background-color: #ffff00;
+}
+
+.conf36 {
+  color: #000000;
+  background-color: #66cdaa;
+}
+
+.conf48 {
+  color: #000000;
+  background-color: #dca978;
+}
+
+.conf16 {
+  color: #000000;
+  background-color: #1e90ff;
+}
+
+.conf51 {
+  color: #000000;
+  background-color: #c0c0c0;
+}
+
+.conf9 {
+  color: #000000;
+  background-color: #bdb76b;
+}
+
+.conf30 {
+  color: #000000;
+  background-color: #20b2aa;
+}
+
+.conf40 {
+  color: #000000;
+  background-color: #48d1cc;
+}
+
+.conf27 {
+  color: #000000;
+  background-color: #d6d600;
+}
+
+.conf17 {
+  color: #000000;
+  background-color: #ffd700;
+}
+
+.conf56 {
+  color: #000000;
+  background-color: #f5deb3;
+}
+
+.conf37 {
+  color: #000000;
+  background-color: #d392e3;
+}
+
+.conf41 {
+  color: #000000;
+  background-color: #eec6f0;
+}
+
+.conf12 {
+  color: #000000;
+  background-color: #e9967a;
+}
+
+.conf42 {
+  color: #000000;
+  background-color: #c8f972;
+}
+
+.conf28 {
+  color: #000000;
+  background-color: #f390cf;
+}
+
+.conf58 {
+  color: #000000;
+  background-color: #c6e38a;
+}
+
+.conf44 {
+  color: #000000;
+  background-color: #ffcea2;
+}
+
+.conf26 {
+  color: #000000;
+  background-color: #f08080;
+}
+
+.conf35 {
+  color: #000000;
+  background-color: #55d555;
+}
+
+.conf53 {
+  color: #000000;
+  background-color: #d2b48c;
+}
+
+.conf15 {
+  color: #000000;
+  background-color: #ffbbff;
+}
+
+.conf20 {
+  color: #000000;
+  background-color: #adff2f;
+}
+
+.conf50 {
+  color: #000000;
+  background-color: #f6b57d;
+}
+
+.conf18 {
+  color: #000000;
+  background-color: #dcdcdc;
+}
+
+.conf23 {
+  color: #000000;
+  background-color: #ffb6c1;
+}
+
+.conf60 {
+  color: #000000;
+  background-color: #c5a289;
+}
+
+.conf39 {
+  color: #000000;
+  background-color: #00fa9a;
+}
+
+.conf45 {
+  color: #000000;
+  background-color: #ffc0cb;
+}
+
+.conf34 {
+  color: #000000;
+  background-color: #78ff78;
+}
+
+.conf55 {
+  color: #000000;
+  background-color: #f199f1;
+}
+
+.conf59 {
+  color: #000000;
+  background-color: #ffb1a3;
+}
+
+.conf11 {
+  color: #000000;
+  background-color: #ff8c00;
+}
+
+.conf21 {
+  color: #000000;
+  background-color: #d3d3d3;
+}
+
+.conf3 {
+  color: #000000;
+  background-color: #00ffff;
+}

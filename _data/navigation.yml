@@ -15,7 +15,7 @@ main:
   - title: "Organizers"
     url: /organizers/
   - title: "Program"
-    url: https://easychair.org/smart-program/FLoC2022/VardiFest-index.html
+    url: /vardifest program.html
 organizers:
   - title: Organizers
     url: /organizers/#organizing-committee
