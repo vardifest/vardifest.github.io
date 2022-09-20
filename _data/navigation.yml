@@ -15,7 +15,7 @@ main:
   - title: "Organizers"
     url: /organizers/
   - title: "Program"
-    url: /vardifest_program.html
+    url: /assets/vardifest_program.html
 organizers:
   - title: Organizers
     url: /organizers/#organizing-committee
